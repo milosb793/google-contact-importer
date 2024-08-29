@@ -1,0 +1,10 @@
+{
+  "ИМЕ И ПРЕЗИМЕ": "Name",
+  "УЛИЦА": "Address 1 - Formatted",
+  "БРОЈ": "Address 1 - Formatted",
+  "БРОЈ ТЕЛЕФОНА": "Phone 1 - Value",
+  "СЛАВА": "Subject",
+  "ДАТУМ": "Notes",
+  "ВОДИЦА": "Notes",
+  "НАПОМЕНА": "Notes"
+}
