@@ -47,6 +47,9 @@ def setup_arg_parser(parser):
 
 
 def set_globals_from_input(**kwargs):
+    if not kwargs['input']:
+        raise Exception("No input file given")
+
     config.TOKEN_PATH = kwargs['token']
     config.CREDENTIALS_PATH = kwargs['credentials']
     config.APP_DRY_RUN = kwargs['dry']
