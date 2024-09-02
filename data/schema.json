@@ -1,10 +1,24 @@
 {
-  "ИМЕ И ПРЕЗИМЕ": "Name",
-  "УЛИЦА": "Address 1 - Formatted",
-  "БРОЈ": "Address 1 - Formatted",
-  "БРОЈ ТЕЛЕФОНА": "Phone 1 - Value",
-  "СЛАВА": "Subject",
-  "ДАТУМ": "Notes",
-  "ВОДИЦА": "Notes",
-  "НАПОМЕНА": "Notes"
+    "Address 1 - Formatted": {
+        "combine": {
+            "fields": ["УЛИЦА", "БРОЈ"],
+            "include_key": false
+        },
+        "suffix": ", Батајница"
+    },
+    "Notes": {
+        "combine": {
+            "fields": ["СЛАВА", "ДАТУМ", "ВОДИЦА", "НАПОМЕНА"],
+            "include_key": true
+        }
+    },
+    "Name": {
+        "csv_field": "ИМЕ И ПРЕЗИМЕ"
+    },
+    "Phone 1 - Value": {
+        "csv_field": "БРОЈ ТЕЛЕФОНА"
+    },
+    "Subject": {
+        "csv_field": "СЛАВА"
+    }
 }

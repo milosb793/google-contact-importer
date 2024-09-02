@@ -20,3 +20,5 @@ requests-oauthlib==2.0.0
 rsa==4.9
 uritemplate==4.1.1
 urllib3==2.0.7
+runscript @ git+ssh://git@github.com/milosb793/runscript.git@47001fa7b7b51e5055e433b19e9b8998cf58d6f4
+

@@ -14,8 +14,8 @@ setup:
 clean:
 	rm -rf __pycache__
 
-run:
-	$(PYTHON) main.py --input $(input) --output $(output) --schema $(schema)
+#run:
+#	$(PYTHON) main.py --input $(input) --output $(output) --schema $(schema)
 
 auth:
 	$(PYTHON) auth.py $(filter-out $@, $(MAKECMDGOALS))
